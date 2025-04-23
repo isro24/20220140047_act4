@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navigation_routing_parsingparameter/login_page.dart';
+import 'package:navigation_routing_parsingparameter/register_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const LoginPage(),
+      home: const RegisterPage(),
     );
   }
 }
