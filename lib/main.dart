@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:navigation_routing_parsingparameter/home_page.dart';
 import 'package:navigation_routing_parsingparameter/login_page.dart';
+import 'package:navigation_routing_parsingparameter/order_page.dart';
 import 'package:navigation_routing_parsingparameter/register_page.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomePage(),
+      home: const OrderPage(),
     );
   }
 }
