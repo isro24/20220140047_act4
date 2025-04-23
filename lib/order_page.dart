@@ -85,7 +85,7 @@ class _OrderPageState extends State<OrderPage> {
                           jumlahMakanan: jumlahMakananController.text,
                           jumlahMinuman: jumlahMinumanController.text,
                           makanan: makananController.text,
-                          minuman: minumanController,
+                          minuman: minumanController.text,
                           totalHarga: totalHarga,
                         )
                     )
